@@ -3,4 +3,5 @@ class LandmarksController < ApplicationController
     @landmarks = Landmark.all
     erb :'landmarks/index'
   end
+  
 end
