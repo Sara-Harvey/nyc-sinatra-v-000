@@ -6,4 +6,4 @@
   <input type="text" id="figure_name" name="figure[name]" value="<%= @figure.name%>"><br></br>
   <label>Edit landmarks:</label><br>
   
-  
+  <% Landmark.all.each do |landmark| %>
